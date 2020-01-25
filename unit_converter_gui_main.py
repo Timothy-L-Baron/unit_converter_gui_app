@@ -1,4 +1,4 @@
-#basic calculator tutorial from codemy.com
+
 
 from tkinter import *
 from tkinter import font
@@ -101,8 +101,10 @@ button_convert = Button(root, text='convert', padx=54, highlightbackground='gree
 button_clear = Button(root, text='clear', padx=73, highlightbackground='red', fg = 'black', font = ("Helvetica", 35), pady=5, command=clear_button)
 
 button_above_inputs = Button(root, text='Unit Converter', padx=146, fg = 'black', font = ("Helvetica", 35, 'bold'), pady=5, command=button_clear,highlightbackground='white', width =10, height = 1)
+
 button_info_inputs = Button(root, text='       quantity                  input unit                output unit     ', padx=187, fg = 'black', font = ("Helvetica", 20, 'bold'),
 pady=5, command=button_clear,highlightbackground='white', width =10, height = 1)
+
 button_bottom = Button(root, text='', padx=146, fg = 'white', font = ("Helvetica", 35), pady=10, command=button_clear,highlightbackground='white', width =10, height = 1)
 
 
