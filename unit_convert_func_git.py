@@ -29,6 +29,6 @@ def unit_converter(n_in, u_in, u_out):
     if fin_out == 1.0:
         u_out = single_unit_dic.get(u_out)
     #return the conversion
-    x = '{} {} is approximately {} {}'.format(n_in, u_in, fin_out, u_out)
+    x = '{} {} is approximately {} {}'.format(n_in, u_in, "{0:.2f}".format(fin_out), u_out)
     #return print('{} {} is approximately {} {}'.format(n_in, u_in, fin_out, u_out))
     return x
