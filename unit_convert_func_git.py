@@ -17,10 +17,10 @@ single_unit_dic = {'inches' : 'inch', 'feet' : 'foot', 'centimeters' : 'centimet
 def unit_converter(n_in, u_in, u_out):
     #convert n_in to a float
     n_in = float(n_in)
-    print(n_in)
+    #print(n_in)
     #create an input phrase so that the proper conversion value can be obtained from the unit_dic
     input_phrase = u_in + '_to_' + u_out
-    print(input_phrase)
+    #print(input_phrase)
     #calculate fin_out using the input number and conversion value
     fin_out = n_in * unit_dic.get(input_phrase)
     #change units to singular string for output if number in front of unit is 1
